@@ -13,6 +13,9 @@ After installing [Archiso](https://wiki.archlinux.org/index.php/Archiso), copy t
 ## Upgrading
 
 - Copy files from `/usr/share/archiso/configs/releng/`
+- Upgrade custom built packages:
+    - Copy the package to ./airootfs/root
+    - Run `repo-add ./airootfs/etc/pacman.d/custom_repo/custom.db.tar ./airootfs/root/<package_file>`
 
 ## Included Packages
 
