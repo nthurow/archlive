@@ -14,8 +14,9 @@ After installing [Archiso](https://wiki.archlinux.org/index.php/Archiso), copy t
 
 - Copy files from `/usr/share/archiso/configs/releng/`
 - Upgrade custom built packages:
+    - Remove old packages from repo: `repo-remove ./airootfs/etc/pacman.d/custom_repo/custom.db.tar google-chrome rtl88xxau-aircrack-dkms-git teamviewer`
+    - Remove old package files from `./airootfs/etc/pacman.d/custom_repo`
     - Copy the package to `./airootfs/etc/pacman.d/custom_repo`
-    - Remove the old version of the package from `./airootfs/etc/pacman.d/custom_repo`
     - Run `repo-add ./airootfs/etc/pacman.d/custom_repo/custom.db.tar ./airootfs/etc/pacman.d/custom_repo/*.pkg.tar*`
 
 ## Included Packages
