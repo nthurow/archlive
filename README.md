@@ -10,6 +10,10 @@ After installing [Archiso](https://wiki.archlinux.org/index.php/Archiso), copy t
 # ./build.sh -v
 ```
 
+## Upgrading
+
+- Copy files from `/usr/share/archiso/configs/releng/`
+
 ## Included Packages
 
 - [Google Chrome](https://aur.archlinux.org/packages/google-chrome/)
