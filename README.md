@@ -7,7 +7,7 @@ Custom Arch Linux Live Images
 After installing [Archiso](https://wiki.archlinux.org/index.php/Archiso), copy the `airootfs/etc/pacman.d/custom_repo/` directory to `/etc/pacman.d/`.  Then run:
 
 ```
-# ./build.sh -v
+# mkarchiso -v -w /tmp/archiso-tmp .
 ```
 
 ## Upgrading
